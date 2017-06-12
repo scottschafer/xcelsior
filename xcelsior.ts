@@ -36,7 +36,7 @@ export class xcelsior<T> {
     var oldValue = locator.parent[locator.key];
 
     // if the value wasn't changed, return
-    if (newValue === oldValue) {
+    if (newValue == oldValue) {
       return;
     }
 
